@@ -2,16 +2,47 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  background-color: #FFEEDB
 }
+
 h1{
   font-family: 'Crimson Pro', serif;
   padding: 10px;
   text-align: center;
-  font-weight: 300;
+  font-weight: 700;
+  font-size: 300%;
+  font-style: italic;
+}
+h2{
+  display: flex;
+  font-size: 250%;
+  font-style: oblique;
+  justify-content: center;
+  margin: 20px;
+}
+h3{
+  font-size: 150%;
+  margin-left: 15px;
+  font-style: oblique;
+}
+.pHI{
+  display: flex;
+  font-size: 150%;
+  justify-content: flex-end;
+  margin-right: 15px;
 }
 .buttons{
   display: flex;
   justify-content: space-around;
+  font-family: 'Crimson Pro', serif;
+  font-size: 200%;
+  background-color: #235789;
+  position: sticky;
+  top: 0;
+}
+.headText{
+  background-color: #235789;
+  color: white;
 }
 .theIssue{
   height: 40px;
@@ -35,8 +66,50 @@ h1{
   /* display: flex;
   align-content: center; */
   height: 350px;
-  width: 450px;
+  width: 550px;
   object-fit: cover;
+  border: white 5px solid;
+  margin-top: 10px;
+}
+.climateChange{
+  display: flex;
+  padding: 10px;
+}
+.pollution{
+  display: flex;
+  padding: 10px;
+}
+#climateChangeText{
+  font-size: 130%;
+  font-family: 'Lora', serif;
+}
+#pollutionText{
+  font-size: 130%;
+  font-family: 'Lora', serif;
+}
+#oceanText{
+  font-size: 130%;
+  font-family: 'Lora', serif;
+}
+.icePic{
+  height: 350px;
+  width: 550px;
+  display: inline;
+  border: white 5px solid;
+}
+.factoryPic{
+  height: 350px;
+  width: 550px;
+  border: white 5px solid;
+}
+.oceanPic{
+  height: 350px;
+  width: 550px;
+  border: white 5px solid;
+}
+.oceanPollution{
+  display: flex;
+  padding: 10px;
 }
 .pic{
   display: flex;
@@ -50,9 +123,18 @@ h1{
   display: flex;
   justify-content: space-between;
 }
+.resourceSubs{
+  /* display: flex;
+  justify-content: space-around; */
+  width: 50%;
+  margin: 10px;
+}
 .resourceSubHeaders{
-  display: inline-flex;
-  justify-content: space-between;
+  text-align: center;
+}
+.zipInfo{
+  width: 50%;
+  margin: 10px;
 }
 .helpPhotos{
   display: flex;
@@ -62,13 +144,93 @@ h1{
   height: 300px;
   width: 390px;
   object-fit:cover;
+  border: white 5px solid;
 }
 .closet{
   height: 300px;
   width: 390px;
   object-fit:cover;
+  border: white 5px solid;
 }
-.resourceSubHeaders{
-  display: inline-flex;
-  justify-content: space-between;
+.bathroom{
+  height: 300px;
+  width: 390px;
+  object-fit:cover;
+  border: white 5px solid;
+}
+
+.kitchenInfo{
+  padding:10px;
+  padding-top: 4px;
+  font-size: 110%;
+  font-family: 'Lora', serif;
+}
+.bathroomInfo{
+  padding:10px;
+  padding-top: 4px;
+  font-size: 110%;
+  font-family: 'Lora', serif;
+}
+.closetInfo{
+  padding:10px;
+  padding-top: 4px;
+  font-size: 110%;
+  font-family: 'Lora', serif;
+}
+a{
+  color: seagreen;
+}
+.container{
+  margin: 20px;
+  border: white 5px solid;
+}
+.zip{
+  height: 25px;
+  width: 75px;
+  justify-content: center;
+}
+.zipHeader{
+  display: flex;
+  justify-content: center;
+}
+.button{
+  background-color: #119da4;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 8px;
+}
+.resources{
+  display: flex;
+  justify-content: space-around;
+}
+.ourInfo{
+  display: flex;
+  justify-content: space-around;
+  word-wrap: break-word;
+}
+.whitney{
+  width: 50%;
+
+}
+.malena{
+  width: 50%;
+}
+.getInvolved{
+  display: flex;
+  flex-direction: row;
+}
+.whitpic{
+  width: 450px;
+  height: 250px;
+  object-fit: cover;
+  margin-left: 100px;
+  margin-bottom: 20px;
+
+}
+.malenaPic{
+  width: 450px;
+  height: 250px;
+  object-fit: cover;
+  margin-left: 90px;
+  margin-bottom: 20px;
 }
