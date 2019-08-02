@@ -1,0 +1,74 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+h1{
+  font-family: 'Crimson Pro', serif;
+  padding: 10px;
+  text-align: center;
+  font-weight: 300;
+}
+.buttons{
+  display: flex;
+  justify-content: space-around;
+}
+.theIssue{
+  height: 40px;
+  width: 100px;
+  font-family: 'Crimson Pro', serif;
+  font-size: 100%;
+}
+.help{
+  height: 40px;
+  width: 100px;
+  font-family: 'Crimson Pro', serif;
+  font-size: 100%;
+}
+.resources{
+  height: 40px;
+  width: 100px;
+  font-family: 'Crimson Pro', serif;
+  font-size: 100%;
+}
+.mainPhoto{
+  /* display: flex;
+  align-content: center; */
+  height: 350px;
+  width: 450px;
+  object-fit: cover;
+}
+.pic{
+  display: flex;
+  justify-content: center;
+}
+.howHeaders{
+  display: flex;
+  justify-content: space-around;
+}
+.howInfo{
+  display: flex;
+  justify-content: space-between;
+}
+.resourceSubHeaders{
+  display: inline-flex;
+  justify-content: space-between;
+}
+.helpPhotos{
+  display: flex;
+  justify-content: space-between;
+}
+.kitchenPhoto{
+  height: 300px;
+  width: 390px;
+  object-fit:cover;
+}
+.closet{
+  height: 300px;
+  width: 390px;
+  object-fit:cover;
+}
+.resourceSubHeaders{
+  display: inline-flex;
+  justify-content: space-between;
+}
